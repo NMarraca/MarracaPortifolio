@@ -1,0 +1,94 @@
+          #div1{
+	      position:relative;
+		  top:10px;
+		  left: 20px;
+		  width: 800px;
+		  height: 150px;
+		  }
+		  
+		  #div2{
+	      position:relative;
+		  top:-145px;
+		  left: 800px;
+		  width: 50px;
+		  height: 15px;
+		  }
+		
+		h1{
+		text-align: center; color: purple; background-color: pink;
+		}	
+		  
+		h2{
+		color: darkviolet;
+		background-color: hotpink;
+		}
+
+		body{
+			 
+			margin: 200px;
+			margin-top: 50px;
+			font-family: cursive;
+			background-color:rgb(180, 70, 178);
+			}
+		
+	    table{
+	    	
+	  		font-family: cursive;
+	  		border-collapse: collapse;
+	  		width: 100%;
+	  	    }	
+		
+		th{
+		   background-color: pink; color: purple;
+           }
+		
+		td, th {
+	  		border: 1px solid #dddddd;
+			border-color: black;
+	  		text-align: left;
+	  		padding: 6px;
+		    }
+
+			.container{
+				max-width: 1400px;
+				padding: 3%;
+				margin:0 auto;
+			}
+
+			nav{
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				position: fixed;
+				top: 0;
+			}
+
+			nav .logo{
+				font-size: 35px;
+				font-style: italic;
+				color: #dddddd;
+				font-weight: bold;
+			}
+
+			nav ul{
+				list-style: none;
+			}
+
+			nav ul li {
+				display: inline-block;
+				
+			}
+
+			nav ul li a{
+				padding: 10px 20px;
+				text-decoration: none;
+				font-size: 19px;
+				color: #dddddd;
+				border-radius: 30px;
+				transition: 0.6s;
+
+			}
+
+			nav ul li a:hover{
+				background-color: rgb(255, 0, 72);
+			}
